@@ -2,9 +2,10 @@
 import fetch from 'node-fetch';
 import fs from 'fs';
 import path from 'path';
+import os from 'os';
 import { Product, GraphQLResponse } from './types';  // Importing the defined types
 
-const tempDir = path.join(__dirname, '..', 'temp');
+const tempDir = path.join(os.tmpdir(), 'your-app-name');
 if (!fs.existsSync(tempDir)) {
     fs.mkdirSync(tempDir, { recursive: true });
 }

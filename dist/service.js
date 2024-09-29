@@ -17,7 +17,8 @@ exports.processProducts = void 0;
 const node_fetch_1 = __importDefault(require("node-fetch"));
 const fs_1 = __importDefault(require("fs"));
 const path_1 = __importDefault(require("path"));
-const tempDir = path_1.default.join(__dirname, '..', 'temp');
+const os_1 = __importDefault(require("os"));
+const tempDir = path_1.default.join(os_1.default.tmpdir(), 'your-app-name');
 if (!fs_1.default.existsSync(tempDir)) {
     fs_1.default.mkdirSync(tempDir, { recursive: true });
 }

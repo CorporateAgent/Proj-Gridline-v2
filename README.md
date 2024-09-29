@@ -17,7 +17,6 @@
 - [Key Features](#key-features)
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
-- [Server Functionality](#server-functionality)
 - [API Endpoints](#api-endpoints)
 - [Integration with Gridline v2 Figma Plugin](#integration-with-gridline-v2-figma-plugin)
 - [Environment Variables](#environment-variables)
@@ -89,14 +88,6 @@ GROQ_KEY=your_groq_api_key</code></pre>
   </li>
 </ol>
 
-<!-- SERVER FUNCTIONALITY SECTION -->
-<h2 id="server-functionality" style="font-family:Arial, sans-serif;">Server Functionality</h2>
-<ul style="font-family:Arial, sans-serif;">
-  <li><strong>Product Data Processing:</strong> Fetches and processes product information from VTEX-based e-commerce platforms.</li>
-  <li><strong>AI-Powered Copy Generation:</strong> Generates custom product descriptions and marketing copy using Replicate AI.</li>
-  <li><strong>Chatbot Integration:</strong> Provides an AI-driven chatbot endpoint for handling user queries within the Figma plugin.</li>
-  <li><strong>Batch URL Processing:</strong> Handles multiple product URLs in a single request, supporting efficient workflows.</li>
-</ul>
 
 <!-- API ENDPOINTS SECTION -->
 <h2 id="api-endpoints" style="font-family:Arial, sans-serif;">API Endpoints</h2>
