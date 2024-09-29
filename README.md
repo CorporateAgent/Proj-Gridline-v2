@@ -77,7 +77,7 @@ project-root/
     <pre><code>npm install</code></pre>
   </li>
   <li>Create a <code>.env</code> file with the following content:
-    <pre><code>PORT=8080
+    <pre><code>
 REPLICATE_API_TOKEN=your_replicate_api_token
 GROQ_KEY=your_groq_api_key</code></pre>
   </li>
