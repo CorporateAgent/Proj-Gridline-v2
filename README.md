@@ -71,7 +71,7 @@ project-root/
 <h2 id="setup-and-installation" style="font-family:Arial, sans-serif;">Setup and Installation</h2>
 <ol style="font-family:Arial, sans-serif;">
   <li>Clone the repository:
-    <pre><code>git clone &lt;repository-url&gt;
+    <pre><code>git clone https://github.com/CorporateAgent/Proj-Gridline-v2.git
 cd project-root</code></pre>
   </li>
   <li>Install dependencies:
